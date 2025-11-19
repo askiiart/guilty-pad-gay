@@ -1,0 +1,6 @@
+[submodule "libs/mouse-bite.pretty"]
+	path = libs/mouse-bite.pretty
+	url = https://github.com/AchimPieters/mouse-bite.pretty
+[submodule "libs/OPL_Kicad_Library"]
+	path = libs/OPL_Kicad_Library
+	url = https://github.com/Seeed-Studio/OPL_Kicad_Library.git
