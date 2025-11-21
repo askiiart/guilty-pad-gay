@@ -21,3 +21,11 @@ the side LEDs are on a separate board (attached by mouse bites), and you need to
 
 ## helpful links
 - [breakaways](https://www.studiopieters.nl/mouse-bite/)
+- [SK6812MINI-E datasheet](https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf)
+
+## art
+
+- [bridget](https://danbooru.donmai.us/posts/10037913)
+- [mayburi](https://danbooru.donmai.us/posts/10155469)
+- [testament](https://x.com/kujikawaii/status/1534858361476358144)
+- [elphelt](https://static.wikia.nocookie.net/guilty-gear/images/4/44/Elphelt_Guilty_Gear_Strive.png/revision/latest?cb=20240501125741) (from the elphelt fandom page)

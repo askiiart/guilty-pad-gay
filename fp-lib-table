@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "OPL")(type "KiCad")(uri "${KIPRJMOD}/libs/OPL_Kicad_Library/Seeed Studio XIAO Series Library")(options "")(descr ""))
   (lib (name "mouse bites")(type "KiCad")(uri "${KIPRJMOD}/libs/mouse-bite.pretty/")(options "")(descr ""))
+  (lib (name "magnetopad")(type "KiCad")(uri "${KIPRJMOD}/libs/magnetopad.pretty")(options "")(descr ""))
+  (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/libs/marbastlib/footprints/marbastlib-mx.pretty")(options "")(descr ""))
+  (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/libs/marbastlib/footprints/marbastlib-various.pretty")(options "")(descr ""))
 )
