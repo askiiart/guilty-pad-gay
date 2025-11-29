@@ -3,4 +3,5 @@
   (lib (name "OPL")(type "KiCad")(uri "${KIPRJMOD}/libs/OPL_Kicad_Library/Seeed Studio XIAO Series Library/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
   (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/libs/marbastlib/symbols/marbastlib-mx.kicad_sym")(options "")(descr ""))
   (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/libs/marbastlib/symbols/marbastlib-various.kicad_sym")(options "")(descr ""))
+  (lib (name "guilty-pad-gay")(type "KiCad")(uri "${KIPRJMOD}/libs/guilty-pad-gay.pretty/guilty-pad-gay.kicad_sym")(options "")(descr ""))
 )
