@@ -18,7 +18,7 @@ To prevent there just being an awkward blank section in the middle, the side LED
 
 - [0402 806k resistor](https://www.lcsc.com/product-detail/C3016043.html)
 - [0402 2M resistor](https://www.lcsc.com/product-detail/C49653113.html)
-- [0201 capacitor](https://www.lcsc.com/product-detail/C344042.html)
+- [0603 capacitor](https://www.lcsc.com/product-detail/C1691.html)
 - [Mill-Max hotswap sockets](https://keeb.io/products/mill-max-hotswap-sockets?variant=32377167511646) (optional, if you want the switches to be hotswappable)
 - [8x SK6803MINI-E](https://www.aliexpress.us/item/3256807898532204.html)
   - Kicad shows SK6812MINI-E because I couldn't find any schematics for the 6803s and didn't want to make my own symbol, but either works. **See [notes](#notes) for important details.**

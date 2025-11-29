@@ -6014,7 +6014,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "10μF"
 			(at 69.85 161.2899 0)
 			(effects
 				(font
@@ -6023,7 +6023,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 65.0748 156.21 0)
 			(effects
 				(font
