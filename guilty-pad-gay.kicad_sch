@@ -2707,19 +2707,6 @@
 		)
 	)
 	(rectangle
-		(start 142.494 22.606)
-		(end 275.59 46.99)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3277d467-baa8-4470-8f88-af88746cc56f)
-	)
-	(rectangle
 		(start 17.78 146.05)
 		(end 83.82 195.58)
 		(stroke
@@ -2753,16 +2740,6 @@
 		)
 		(uuid "2d0327c6-7201-41cf-ae5b-f87509affc63")
 	)
-	(text "NOTE regarding 4/5V rail\nThis is exclusively used for powering the LEDs, which can run off a range of voltages\nFor this we're using 4/5V, but anything 3.7-5.5 works\n(although DIN must be >= 0.7*VDD, so max VDD in this case is actually ~4.7V)\n\nAnyways yeah, +4_OR_5V means 4V when on battery, 5V when on USB"
-		(exclude_from_sim no)
-		(at 209.042 34.544 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "6a8de477-ee59-4a36-b7d2-f4a4033f2c0f")
-	)
 	(text "boost conversion and LED control circuitry"
 		(exclude_from_sim no)
 		(at 38.862 147.574 0)
@@ -2783,9 +2760,9 @@
 		)
 		(uuid "db7195cc-0def-4a13-8456-091f8d94b5f0")
 	)
-	(text "The XIAO nrf52840 only supplies 5V when on USB\nWhen on battery, we'll use a boost converter set to 4V (fulfills 3.3V >= 0.7*VDD_LED and 3.8V >= .95*VDD_LED)\n(those are to cover min LED data voltage relative to VDD,\nand ensure the boost converter's input voltage is always less than the output)\n\nalt boost converter: https://www.lcsc.com/datasheet/C2974847.pdf\nmay be a little more efficient and higher amperage,\nbut more work and more components - will accept the tradeoff to make this simpler"
+	(text "The XIAO nrf52840 only\nsupplies 5V when on USB"
 		(exclude_from_sim no)
-		(at 51.816 139.446 0)
+		(at 70.104 192.024 0)
 		(effects
 			(font
 				(size 0.889 0.889)
