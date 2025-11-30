@@ -31,6 +31,7 @@ To prevent there just being an awkward blank section in the middle, the side LED
 - [Inductor](https://www.lcsc.com/product-detail/C206361.html)
 - [Boost converter](https://www.lcsc.com/product-detail/C410998.html)
 - [Diodes](https://www.lcsc.com/product-detail/C402218.html)
+- [Level shifter](https://www.lcsc.com/product-detail/C42460230.html)
 
 Some of these components for the boost conversion circuitry are overkill, this is so that parts can be shared between this and the yet-to-be-made full-size keyboard. If you wanna save just a bit of money, and are only building this, you can cheap out on parts a little.
 
