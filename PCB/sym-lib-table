@@ -1,0 +1,9 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "OPL") (type "KiCad") (uri "${KIPRJMOD}/libs/OPL_Kicad_Library/Seeed Studio XIAO Series Library/Seeed_Studio_XIAO_Series.kicad_sym") (options "") (descr ""))
+	(lib (name "marbastlib-mx") (type "KiCad") (uri "${KIPRJMOD}/libs/marbastlib/symbols/marbastlib-mx.kicad_sym") (options "") (descr ""))
+	(lib (name "marbastlib-various") (type "KiCad") (uri "${KIPRJMOD}/libs/marbastlib/symbols/marbastlib-various.kicad_sym") (options "") (descr ""))
+	(lib (name "guilty-pad-gay") (type "KiCad") (uri "${KIPRJMOD}/libs/guilty-pad-gay.pretty/guilty-pad-gay.kicad_sym") (options "") (descr ""))
+	(lib (name "Seeed Studio XIAO nRF52840 v1.1-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/Seeed Studio XIAO nRF52840 v1.1-eagle-import.kicad_sym") (options "") (descr ""))
+	(lib (name "xrd-easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/../libs/guilty-devboard-xrd/PCB/libs/easyeda2kicad/easyeda2kicad.kicad_sym") (options "") (descr ""))
+)
