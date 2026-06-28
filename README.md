@@ -16,7 +16,7 @@ To prevent there just being an awkward blank section in the middle, the side LED
 
 ## Bill of materials
 
-- [0805 ±0.1% 806k resistor](https://www.lcsc.com/product-detail/C865663.html)
+- [2x 0805 ±0.1% 806k resistor](https://www.lcsc.com/product-detail/C865663.html)
 - [0805 ±0.1% 2M resistor](https://www.lcsc.com/product-detail/C2984387.html)
 - [0805 22uF capacitor](https://www.lcsc.com/product-detail/C577040.html)
 - [CPG151101S11-16 Hotswap sockets](https://www.lcsc.com/product-detail/C41430893.html)
@@ -27,9 +27,10 @@ To prevent there just being an awkward blank section in the middle, the side LED
 - [903090 lipo](https://www.aliexpress.us/item/3256809116041100.html) (anything 9mm thick or less is fine - 903090 = 9.0x30x90mm)
 - [1210 4.7uH >=1.2A Isat inductor](https://www.lcsc.com/product-detail/C17701271.html)
 - [Boost converter](https://www.lcsc.com/product-detail/C2071163.html)
-- [Diodes](https://www.lcsc.com/product-detail/C402218.html)
+- [Diodes](https://www.lcsc.com/product-detail/C191023.html)
 - [Level shifter](https://www.lcsc.com/product-detail/C42460230.html)
 - [AO3400A](https://www.lcsc.com/product-detail/C49195711.html)
+- [AO3401A](https://www.lcsc.com/product-detail/C347476.html)
 
 Some of these components for the boost conversion circuitry are overkill, this is so that parts can be shared between this and the yet-to-be-made full-size keyboard. If you wanna save just a bit of money, and are only building this, you can cheap out on parts a little.
 

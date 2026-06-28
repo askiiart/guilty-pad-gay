@@ -4386,16 +4386,6 @@
 		)
 		(uuid "aaa62874-6324-4e25-a03e-6c35e456f014")
 	)
-	(text "TODO: add connectors for i2c and power,\nand whatever spare pins if possible\n\nand also for SWD/GND"
-		(exclude_from_sim no)
-		(at 103.632 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2ce740f1-465a-4feb-b17a-8d110340eb7a")
-	)
 	(text "physically 1x6, but electrically matrix"
 		(exclude_from_sim no)
 		(at 117.348 124.206 0)
@@ -4474,6 +4464,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09078d8e-1d1e-42f7-bb0e-580b0a47c866")
+	)
+	(junction
+		(at 120.65 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "119e69ba-4bb5-42d0-b04c-d47d8821e737")
 	)
 	(junction
 		(at 31.75 107.95)
@@ -4582,12 +4578,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd59b468-f0aa-4c70-aa25-fa19e327b386")
-	)
-	(junction
-		(at 120.65 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e04169dc-7d45-4686-a35f-1699d2746698")
 	)
 	(junction
 		(at 119.38 49.53)
@@ -4747,16 +4737,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 147.32) (xy 120.65 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c35a723-54e3-42b6-875c-83c3fe9de195")
-	)
-	(wire
-		(pts
 			(xy 31.75 100.33) (xy 31.75 107.95)
 		)
 		(stroke
@@ -4764,6 +4744,16 @@
 			(type default)
 		)
 		(uuid "20fdc266-8ff9-49a3-ae18-4d9ea8f9de8e")
+	)
+	(wire
+		(pts
+			(xy 120.65 147.32) (xy 120.65 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bf6bdd-a0f5-435a-92a7-0f4ba3864c07")
 	)
 	(wire
 		(pts
@@ -5889,6 +5879,86 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
+		(at 125.73 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cbefe5e-72ba-417a-ab9f-3687d1f750b0")
+		(property "Reference" "SW5"
+			(at 125.73 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 125.73 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 125.73 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 125.73 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39c00c2d-9d50-4d2c-a71a-a91a4e21fb20")
+		)
+		(pin "2"
+			(uuid "79b4324f-e423-4fa0-85db-0c1c7d691804")
+		)
+		(instances
+			(project "guilty-pad-gay"
+				(path "/04b7261d-8a9f-4213-a1e3-375a05ca8d2e"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
 		(at 106.68 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -6164,7 +6234,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 130.81 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -6266,7 +6336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 66.04 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6369,7 +6439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 111.76 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -6473,7 +6543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 130.81 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -6565,7 +6635,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "806k"
 			(at 23.114 159.766 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6576,7 +6646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 24.13 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6811,7 +6881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal"
 			(at 81.28 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6895,7 +6965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 111.76 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -7243,7 +7313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 119.38 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7345,7 +7415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
 			(at 105.41 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7681,7 +7751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 44.45 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -7925,7 +7995,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 111.76 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -8170,7 +8240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 130.81 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -8313,86 +8383,6 @@
 			(project "guilty-pad-gay"
 				(path "/04b7261d-8a9f-4213-a1e3-375a05ca8d2e"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 125.73 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81409a06-3e1c-43d4-b324-202039a25845")
-		(property "Reference" "SW7"
-			(at 125.73 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 125.73 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 125.73 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 125.73 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2fb3452e-a753-475b-b7d0-46780d3b5283")
-		)
-		(pin "2"
-			(uuid "891ac150-c3d7-4c28-bd63-fa2d0ddece21")
-		)
-		(instances
-			(project "guilty-pad-gay"
-				(path "/04b7261d-8a9f-4213-a1e3-375a05ca8d2e"
-					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -8550,86 +8540,6 @@
 			(project "guilty-pad-gay"
 				(path "/04b7261d-8a9f-4213-a1e3-375a05ca8d2e"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 125.73 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91223f03-89e7-4ee3-b8b3-48ac10f8eb5c")
-		(property "Reference" "SW5"
-			(at 125.73 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 125.73 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 125.73 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 125.73 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "140edced-2cd9-47c1-ab3a-2bfe4c75eb47")
-		)
-		(pin "1"
-			(uuid "01eb3c0d-64db-4ee2-8159-eacd7f0efeb8")
-		)
-		(instances
-			(project "guilty-pad-gay"
-				(path "/04b7261d-8a9f-4213-a1e3-375a05ca8d2e"
-					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -8944,6 +8854,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 125.73 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee35bd6-1c26-48e4-9469-f533e4db73a3")
+		(property "Reference" "SW6"
+			(at 125.73 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 125.73 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 125.73 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 125.73 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c543572b-35bb-4048-9f25-b21264b0edaa")
+		)
+		(pin "2"
+			(uuid "8da5331f-cfdf-4fbe-87a8-010039940efa")
+		)
+		(instances
+			(project "guilty-pad-gay"
+				(path "/04b7261d-8a9f-4213-a1e3-375a05ca8d2e"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LV1T08GW")
 		(at 138.43 74.93 0)
 		(unit 1)
@@ -9027,6 +9017,86 @@
 			(project "guilty-pad-gay"
 				(path "/04b7261d-8a9f-4213-a1e3-375a05ca8d2e"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 125.73 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b629940a-2c0d-46d5-99a6-b2c0f265da8a")
+		(property "Reference" "SW4"
+			(at 125.73 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 125.73 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 125.73 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 125.73 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a7847c8-5059-4076-8422-17142af3493d")
+		)
+		(pin "2"
+			(uuid "f0b21f0c-bb58-4e74-86d9-e93ed4824096")
+		)
+		(instances
+			(project "guilty-pad-gay"
+				(path "/04b7261d-8a9f-4213-a1e3-375a05ca8d2e"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -9510,86 +9580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 125.73 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd9088bd-f533-4364-902f-f1a5ac0a5a04")
-		(property "Reference" "SW6"
-			(at 125.73 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 125.73 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 125.73 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 125.73 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa8e1433-1850-413b-a7cc-1a7079e34e85")
-		)
-		(pin "2"
-			(uuid "9a048124-3bbf-447a-9916-a8f392185eda")
-		)
-		(instances
-			(project "guilty-pad-gay"
-				(path "/04b7261d-8a9f-4213-a1e3-375a05ca8d2e"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "marbastlib-various:SK6812MINI-E")
 		(at 187.96 88.9 270)
 		(unit 1)
@@ -10025,7 +10015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 36.83 109.728 90)
 			(hide yes)
 			(show_name no)
