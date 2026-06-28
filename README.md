@@ -4,35 +4,54 @@ Look this was gonna be normal but then the woke left made me add yuri
 
 ---
 
-This is a macro pad which is designed to work with an upcoming keyboard - they will be able to communicate via Bluetooth, or if you've got the right firmware, even act as a very weird split keyboard.
+This is a macro pad which is designed with the [Guilty Pad XX Accent Core Plus Yuri](https://github.com/askiiart/guilty-pad-xx-accent-core-plus-yuri) in mind - can either act independently, or with the right firmware, could theoretically act as a very weird split keyboard.
 
-![A screenshot of the schematic for the board](./readme-images/schematic.png)
+![](/readme-images/pcb.png)
 
-![A screenshot of the PCB for the board. It's split into 2 sections connected by mouse bites, and has yuri and just general guilty gear art.](./readme-images/pcb.png)
-
-![A screenshot of it fully assembled](./readme-images/hackpad-render.png)
-
-To prevent there just being an awkward blank section in the middle, the side LEDs have been split into a separate board, which will be connected to the main board via some wiring. By adding headers, and with a small case redesign, you could connect them even more easily (and... hotswappably?) - this will likely be added at some point.
 
 ## Bill of materials
 
-- [2x 0805 ±0.1% 806k resistor](https://www.lcsc.com/product-detail/C865663.html)
+- [Xiao nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
+- [903090 lipo](https://www.aliexpress.us/item/3256809116041100.html) (9mm thick *or less* is fine - 903090 = 9.0x30x90mm)
+- [2x 0805 ±0.1% 820k resistor](https://www.lcsc.com/product-detail/C865663.html)
 - [0805 ±0.1% 2M resistor](https://www.lcsc.com/product-detail/C2984387.html)
 - [0805 22uF capacitor](https://www.lcsc.com/product-detail/C577040.html)
-- [CPG151101S11-16 Hotswap sockets](https://www.lcsc.com/product-detail/C41430893.html)
-- [6x SK6803MINI-E](https://www.aliexpress.us/item/3256807898532204.html)
+- [6x SK6803MINI-E](https://www.lcsc.com/product-detail/C5242955.html)
   - Kicad shows SK6812MINI-E because I didn't feel like making a new symbol for no reason.
   - [LED power draw](https://lectronz.com/products/rgb-led-sk68xx-mini-e)
 - 6x MX switches
-- [903090 lipo](https://www.aliexpress.us/item/3256809116041100.html) (anything 9mm thick or less is fine - 903090 = 9.0x30x90mm)
 - [1210 4.7uH >=1.2A Isat inductor](https://www.lcsc.com/product-detail/C17701271.html)
 - [Boost converter](https://www.lcsc.com/product-detail/C2071163.html)
 - [Diodes](https://www.lcsc.com/product-detail/C191023.html)
 - [Level shifter](https://www.lcsc.com/product-detail/C42460230.html)
 - [AO3400A](https://www.lcsc.com/product-detail/C49195711.html)
 - [AO3401A](https://www.lcsc.com/product-detail/C347476.html)
+- 6x MX switches
 
-Some of these components for the boost conversion circuitry are overkill, this is so that parts can be shared between this and the yet-to-be-made full-size keyboard. If you wanna save just a bit of money, and are only building this, you can cheap out on parts a little.
+## Bill of Materials
+
+|Name                 |Quantity needed|MOQ|Price |Quantity to order|Link                                                           |Total   |
+|---------------------|---------------|---|------|-----------------|---------------------------------------------------------------|--------|
+|Xiao nRF52840        |1              |1  |9.99  |1                |https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html|9.99    |
+|903090 lipo          |1              |1  |11.69 |1                |https://www.aliexpress.us/item/3256809116041100.html           |11.69   |
+|AO3400A              |1              |20 |0.0214|20               |https://www.lcsc.com/product-detail/C49195711.html             |0.428   |
+|AO3401A              |1              |20 |0.0321|20               |https://www.lcsc.com/product-detail/C347476.html               |0.642   |
+|1N5819WS             |8              |100|0.0107|100              |https://www.lcsc.com/product-detail/C191023.html               |1.07    |
+|74LV1T08GW-TP        |1              |10 |0.0609|10               |https://www.lcsc.com/product-detail/C42460230.html             |0.609   |
+|TPS613222ADBVR       |1              |5  |0.1574|5                |https://www.lcsc.com/product-detail/C2071163.html              |0.787   |
+|Inductor             |1              |5  |0.1508|5                |https://www.lcsc.com/product-detail/C17701271.html             |0.754   |
+|SK6803MINI-E         |6              |10 |0.085 |10               |https://www.lcsc.com/product-detail/C5242955.html              |0.85    |
+|22uF cap             |1              |20 |0.0354|20               |https://www.lcsc.com/product-detail/C577040.html               |0.708   |
+|2M resistor          |1              |10 |0.0468|10               |https://www.lcsc.com/product-detail/C2984387.html              |0.468   |
+|820k resistor        |2              |20 |0.0499|20               |https://www.lcsc.com/product-detail/C865663.html               |0.998   |
+|                     |               |   |      |                 |                                                               |        |
+|                     |               |   |      |                 |                                                               |        |
+|seeed studio shipping|               |   |      |                 |                                                               |5.46    |
+|LCSC shipping        |               |   |      |                 |                                                               |11.31   |
+|                     |               |   |      |                 |                                                               |        |
+|                     |               |   |      |                 |                                                               |        |
+|Subtotal             |               |   |      |                 |                                                               |45.764  |
+|Total                |               |   |      |                 |                                                               |49.53953|
 
 ## Art
 
