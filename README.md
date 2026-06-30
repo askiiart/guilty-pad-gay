@@ -10,25 +10,6 @@ This is a macro pad which is designed with the [Guilty Pad XX Accent Core Plus Y
 
 ![](/readme-images/cad.png)
 
-## Bill of materials
-
-- [Xiao nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)
-- [903090 lipo](https://www.aliexpress.us/item/3256809116041100.html) (9mm thick *or less* is fine - 903090 = 9.0x30x90mm)
-- [2x 0805 ±0.1% 820k resistor](https://www.lcsc.com/product-detail/C865663.html)
-- [0805 ±0.1% 2M resistor](https://www.lcsc.com/product-detail/C2984387.html)
-- [0805 22uF capacitor](https://www.lcsc.com/product-detail/C577040.html)
-- [6x SK6803MINI-E](https://www.lcsc.com/product-detail/C5242955.html)
-  - Kicad shows SK6812MINI-E because I didn't feel like making a new symbol for no reason.
-  - [LED power draw](https://lectronz.com/products/rgb-led-sk68xx-mini-e)
-- 6x MX switches
-- [1210 4.7uH >=1.2A Isat inductor](https://www.lcsc.com/product-detail/C17701271.html)
-- [Boost converter](https://www.lcsc.com/product-detail/C2071163.html)
-- [Diodes](https://www.lcsc.com/product-detail/C191023.html)
-- [Level shifter](https://www.lcsc.com/product-detail/C42460230.html)
-- [AO3400A](https://www.lcsc.com/product-detail/C49195711.html)
-- [AO3401A](https://www.lcsc.com/product-detail/C347476.html)
-- 6x MX switches
-
 ## Bill of Materials
 
 |Name                 |Quantity needed|MOQ|Price |Quantity to order|Link                                                           |Total   |
