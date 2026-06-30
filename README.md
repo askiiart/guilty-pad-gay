@@ -8,6 +8,7 @@ This is a macro pad which is designed with the [Guilty Pad XX Accent Core Plus Y
 
 ![](/readme-images/pcb.png)
 
+![](/readme-images/cad.png)
 
 ## Bill of materials
 
