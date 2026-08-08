@@ -4,7 +4,7 @@ Look this was gonna be normal but then the woke left made me add yuri
 
 ---
 
-This is a macro pad which is designed with the [Guilty Pad XX Accent Core Plus Yuri](https://github.com/askiiart/guilty-pad-xx-accent-core-plus-yuri) in mind - can either act independently, or with the right firmware, could theoretically act as a very weird split keyboard.
+This is a macro pad which is designed with the [Guilty Pad XX Accent Core Plus Yuri](https://github.com/askiiart/guilty-pad-xx-accent-core-plus-yuri) in mind - can either act independently, or with the right firmware, could theoretically act as a very weird split keyboard. For now it just includes very basic kmk firmware for testing.
 
 ![](/readme-images/pcb.png)
 
