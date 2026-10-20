@@ -6,6 +6,8 @@ Look this was gonna be normal but then the woke left made me add yuri
 
 This is a macro pad which is designed with the [Guilty Pad XX Accent Core Plus Yuri](https://github.com/askiiart/guilty-pad-xx-accent-core-plus-yuri) in mind - can either act independently, or with the right firmware, could theoretically act as a very weird split keyboard. If you wanna get really crazy, it even has exposed i2c for expandability. For now it just includes very basic kmk firmware for testing.
 
+![](/readme-images/schematic.svg)
+
 ![](/readme-images/pcb.png)
 
 ![](/readme-images/cad.png)
@@ -46,6 +48,7 @@ This is a macro pad which is designed with the [Guilty Pad XX Accent Core Plus Y
 ## Notes
 
 - You can swap out the SK6803s for SK6812s, just keep in mind to account for them obviously being much brighter, and SK6803s have better color at low brightness.
+- Clone recursively
 
 ## Assembly
 
